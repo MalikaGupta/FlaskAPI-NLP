@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LEMMA</title>
+</head>
+<body>
+<h2>WORDS AND THEIR LEMMA FORMS</h2><br>
+<table border = 1>
+{% for key in lemma %}
+<tr>
+<td> {{ key }} </td>
+</tr>
+{% endfor %}
+</table>
+
+<form method="POST" action=''>
+<h3>Press FIND-SUMMARY to find the summary of the sentences</h3>
+<input type="submit" value="FIND SUMMARY"><br>
+</form>
+
+</body>
+</html>
